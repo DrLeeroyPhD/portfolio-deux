@@ -27,9 +27,9 @@ export default {
     z-index: -2000;
     height: 0;
     width: 0;
-    border-top: 200px solid transparent;
+    border-top: 350px solid transparent;
     border-bottom: 350px solid transparent; 
-    border-right: 115vw solid #333;
+    border-left: 15vw solid #333;
     overflow: hidden;
   }
   

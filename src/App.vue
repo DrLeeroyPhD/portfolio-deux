@@ -5,6 +5,7 @@
     <GrayBarRight></GrayBarRight>
     <About></About>
     <GrayBarLeft></GrayBarLeft>
+    <Projects></Projects>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Hero from './components/Hero.vue'
 import GrayBarRight from './components/GrayBarRight.vue'
 import About from './components/About.vue'
 import GrayBarLeft from './components/GrayBarLeft.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'app',
@@ -22,7 +24,8 @@ export default {
     Hero,
     GrayBarRight,
     About,
-    GrayBarLeft
+    GrayBarLeft,
+    Projects
   }
 }
 </script>

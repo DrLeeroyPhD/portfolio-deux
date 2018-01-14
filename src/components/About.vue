@@ -31,7 +31,7 @@ export default {
     width: 80%;
     margin-left: 10%;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 300px;
   }
   
   #About h1{

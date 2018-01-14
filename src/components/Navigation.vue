@@ -2,13 +2,13 @@
   <div id="Navigation">
     <nav>
       <ul>
-        <a href="#">
+        <a href="#Navigation">
           <li>HOME</li>
         </a>
-        <a href="#">
+        <a href="#About">
           <li>ABOUT</li>
         </a>
-        <a href="">
+        <a href="#">
           <li>PROJECTS</li>
         </a>
         <a href="#">
