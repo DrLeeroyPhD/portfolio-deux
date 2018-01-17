@@ -37,4 +37,17 @@ export default {
     border-radius: 50%;
   }
   
+  #Hero h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: var(--main-gray);
+  }
+  
+  #Hero h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    color: var(--main-gray);
+  }
+  
 </style>

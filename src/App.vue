@@ -39,6 +39,6 @@ export default {
 
 <style>
   :root {
-    --main-gray: #333;
+    --main-gray: #373741;
   }
 </style>
