@@ -33,7 +33,7 @@ export default {
 <style scoped>
   
   div#Navigation{
-    background-color: #FFD54F;
+    background-color: var(--main-yellow);
     margin: 0;
     
   }

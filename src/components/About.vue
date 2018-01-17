@@ -38,7 +38,7 @@ export default {
     font-size: 5em;
     font-family: 'Inconsolata', monospace;
     padding: 50px 10px;
-    background-color: #c9c916;
+    background-color: var(--main-yellow);
     font-weight: bolder;
   }
   
