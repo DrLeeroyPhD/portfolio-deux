@@ -25,7 +25,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
   
   div#About{
     width: 80%;

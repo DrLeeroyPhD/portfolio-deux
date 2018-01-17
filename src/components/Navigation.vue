@@ -8,10 +8,10 @@
         <a href="#About">
           <li>ABOUT</li>
         </a>
-        <a href="#">
+        <a href="#Projects">
           <li>PROJECTS</li>
         </a>
-        <a href="#">
+        <a href="#Contact">
           <li>CONTACT</li>
         </a>
       </ul>

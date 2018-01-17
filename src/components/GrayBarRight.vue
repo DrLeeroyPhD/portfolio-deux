@@ -19,7 +19,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
   #GrayBarRight{
     top: 80%;
     right: 0;

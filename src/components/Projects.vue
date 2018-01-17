@@ -28,7 +28,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
   
   div#Projects{
     margin-top: 200px;

@@ -17,7 +17,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
   
   #GrayBarQuoteTop{
     top: 240%;
