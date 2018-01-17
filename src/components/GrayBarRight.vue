@@ -30,7 +30,7 @@ export default {
     width: 0;
     border-top: 200px solid transparent;
     border-bottom: 350px solid transparent; 
-    border-right: 115vw solid #333;
+    border-right: 115vw solid var(--main-gray);
     overflow: hidden;
   }
 </style>

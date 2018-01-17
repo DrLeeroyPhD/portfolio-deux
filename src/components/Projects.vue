@@ -38,6 +38,9 @@ export default {
     grid-template-columns: 1fr 9fr;
     grid-template-rows: 1fr;
     align-items: center;
+    justify-items: center;
+    grid-gap: 10px 10px;
+    overflow: hidden;
   }
   
   #projectGallery{
@@ -47,8 +50,8 @@ export default {
   }
   
   img.myWork{
-    margin-right: 10px;
     border-radius: 50%;
+    justify-self: start;
   }
   
 </style>

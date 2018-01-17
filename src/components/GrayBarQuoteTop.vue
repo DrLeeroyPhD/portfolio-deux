@@ -1,5 +1,5 @@
 <template>
-  <div id="GrayBarLeft">
+  <div id="GrayBarQuoteTop">
    
    
   </div>
@@ -7,10 +7,10 @@
 
 <script>
 export default {
-  name: 'GrayBarLeft',
+  name: 'GrayBarQuoteTop',
   data () {
     return {
-      msg: 'GrayBarLeft Loaded'
+      msg: 'GrayBarQuoteTop Loaded'
     }
   }
 }
@@ -19,17 +19,17 @@ export default {
 
 <style>
   
-  #GrayBarLeft{
-    top: 160%;
+  #GrayBarQuoteTop{
+    top: 240%;
     left: 0;
     position: absolute;
     display: inline;
     z-index: -2000;
     height: 0;
     width: 0;
-    border-top: 400px solid transparent;
-    border-bottom: 400px solid transparent; 
-    border-left: 15vw solid var(--main-gray);
+    border-top: 500px solid transparent;
+    border-bottom: 500px solid transparent; 
+    border-left: 450vw solid var(--main-gray);
     overflow: hidden;
   }
   

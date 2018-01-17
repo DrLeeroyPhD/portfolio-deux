@@ -6,6 +6,8 @@
     <About></About>
     <GrayBarLeft></GrayBarLeft>
     <Projects></Projects>
+    <GrayBarQuoteTop></GrayBarQuoteTop>
+    <Quote></Quote>
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import GrayBarRight from './components/GrayBarRight.vue'
 import About from './components/About.vue'
 import GrayBarLeft from './components/GrayBarLeft.vue'
 import Projects from './components/Projects.vue'
+import GrayBarQuoteTop from './components/GrayBarQuoteTop.vue'
+import Quote from './components/Quote.vue'
 
 export default {
   name: 'app',
@@ -25,7 +29,16 @@ export default {
     GrayBarRight,
     About,
     GrayBarLeft,
-    Projects
+    Projects,
+    GrayBarQuoteTop,
+    Quote
   }
 }
 </script>
+
+
+<style>
+  :root {
+    --main-gray: #333;
+  }
+</style>
