@@ -35,6 +35,26 @@ export default {
     justify-items: center;
   }
   
+  #Quote>img{
+    border-radius: 50%;
+  }
+  
+  #Quote>img:hover{
+    animation-name: spin;
+    animation-duration: 2100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+  
   #Quote>h2{
     font-size: 3em;
     color: #fff;
