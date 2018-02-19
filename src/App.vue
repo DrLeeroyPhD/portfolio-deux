@@ -8,6 +8,8 @@
     <Projects></Projects>
     <GrayBarQuoteTop></GrayBarQuoteTop>
     <Quote></Quote>
+    <Contact></Contact>
+    <Copy></Copy>
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import GrayBarLeft from './components/GrayBarLeft.vue'
 import Projects from './components/Projects.vue'
 import GrayBarQuoteTop from './components/GrayBarQuoteTop.vue'
 import Quote from './components/Quote.vue'
+import Contact from './components/Contact.vue'
+import Copy from './components/Copy.vue'
 
 export default {
   name: 'app',
@@ -31,7 +35,9 @@ export default {
     GrayBarLeft,
     Projects,
     GrayBarQuoteTop,
-    Quote
+    Quote,
+    Contact,
+    Copy
   }
 }
 </script>
