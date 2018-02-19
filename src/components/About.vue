@@ -36,7 +36,7 @@ export default {
   
   #About h1{
     font-size: 5em;
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--archivo);
     padding: 50px 10px;
     background-color: var(--main-yellow);
     font-weight: bolder;
@@ -45,6 +45,7 @@ export default {
   #About p{
     font-size: 2.5em;
     text-shadow: 1px 1px 1px #fff;
+    font-family: var(--archivo);
   }
   
 </style>

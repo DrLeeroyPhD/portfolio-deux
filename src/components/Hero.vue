@@ -3,7 +3,7 @@
    
    
     <div id="hero-content">
-      <img src="https://www.fillmurray.com/400/400" alt="Fill Murray" />
+      <img src="./img/title-computer.png" alt="Fill Murray" />
       <h1>christopher denny</h1>
       <h2>WEB DEVELOPER</h2>
     </div>
@@ -31,23 +31,23 @@ export default {
     justify-content: space-around;
     text-align: center;
     margin-top: 80px;
-  }
-  
-  #Hero img{
-    border-radius: 50%;
+    margin-bottom: 20px;
+    z-index: 1;
   }
   
   #Hero h1{
-    font-family: 'Anton', sans-serif;
+    font-family: var(--anton);
     font-size: 3em;
     letter-spacing: 2px;
     color: var(--main-gray);
+    text-shadow: 1px 1px 1px #fff;
   }
   
   #Hero h2{
-    font-family: 'Kanit', sans-serif;
+    font-family: var(--kanit);
     font-size: 2em;
     color: var(--main-gray);
+    text-shadow: 1px 1px 1px #fff;
   }
   
 </style>

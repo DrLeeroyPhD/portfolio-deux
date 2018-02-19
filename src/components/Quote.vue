@@ -1,7 +1,7 @@
 <template>
   <div id="Quote">
    
-     <img src="https://www.fillmurray.com/80/80" alt="Fill Murray" />
+     <img src="./img/bracket.jpg" alt="Fill Murray" />
      <h2>“Always code as if the
       guy who ends up
       maintaining your code
@@ -60,11 +60,14 @@ export default {
     color: #fff;
     text-align: center;
     width: 40%;
+    font-family: var(--kanit);
   }
   
   #Quote>h3{
     font-size: 2.5em;
     color: cornflowerblue;
+    font-family: var(--anton);
+    letter-spacing: 5px;
   }
   
 </style>

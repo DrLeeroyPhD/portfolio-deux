@@ -1,7 +1,8 @@
 <template>
   <div id="Contact">
-   
-    <img src="https://www.fillmurray.com/800/800" alt="Fill Murray" />
+    
+    <h2>Contact Me!</h2>
+    <img src="./img/contact.png" alt="Contact Section" />
 
     
   </div>
@@ -25,9 +26,12 @@ export default {
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 30px;
+    align-items: center;
   }
   
-  #Contact img{
-    border-radius: 50%;
+  #Contact h2{
+    font-size: 4em;
+    font-family: var(--kanit);
   }
+  
 </style>

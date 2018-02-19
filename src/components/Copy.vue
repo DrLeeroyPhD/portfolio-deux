@@ -31,8 +31,9 @@ export default {
   #Copy h2{
     color: #fff;
     font-size: 2em;
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--archivo);
     transition: .25s color;
+    letter-spacing: 2px;
   }
   
   #Copy h2:hover{

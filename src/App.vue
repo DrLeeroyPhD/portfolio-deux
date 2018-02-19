@@ -47,5 +47,9 @@ export default {
   :root {
     --main-gray: #373741;
     --main-yellow: #FFD54F;
+    
+    --kanit: 'Kanit', sans-serif;
+    --anton: 'Anton', sans-serif;
+    --archivo: 'Archivo Narrow', sans-serif;
   }
 </style>
