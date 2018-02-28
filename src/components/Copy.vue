@@ -26,6 +26,7 @@ export default {
     margin-bottom: 0;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
   
   #Copy h2{
