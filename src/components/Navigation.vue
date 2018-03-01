@@ -67,4 +67,17 @@ export default {
   }
   
   
+  
+  /***** MEDIA QUERIES *****/
+  @media screen and (max-width: 1024px) {
+    
+    #Navigation nav ul a li{
+      letter-spacing: 8px;
+      font-size: 1.75em;
+    }
+  }
+  
+  
+  
+  
 </style>

@@ -70,4 +70,15 @@ export default {
     letter-spacing: 5px;
   }
   
+  
+  /***** MEDIA QUERIES *****/
+  
+  @media screen and (max-width: 1090px) { 
+    
+    #Quote>h2{
+      width: 80%;
+    }
+    
+  }
+  
 </style>
