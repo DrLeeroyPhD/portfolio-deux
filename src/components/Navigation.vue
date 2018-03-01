@@ -2,16 +2,16 @@
   <div id="Navigation">
     <nav>
       <ul>
-        <a href="#Navigation">
+        <a href="#">
           <li>HOME</li>
         </a>
-        <a href="#About">
+        <a data-scroll href="#About">
           <li>ABOUT</li>
         </a>
-        <a href="#Projects">
+        <a data-scroll href="#Projects">
           <li>PROJECTS</li>
         </a>
-        <a href="#Contact">
+        <a data-scroll href="#Contact">
           <li>CONTACT</li>
         </a>
       </ul>
