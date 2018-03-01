@@ -5,12 +5,12 @@
     <div><img src="https://www.fillmurray.com/300/300" alt="Fill Murray" class="myWork" /></div>
     
     <div id="projectGallery">
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
-      <a href="#"><img src="http://via.placeholder.com/350x250" alt=""></a>
+      <img src="http://via.placeholder.com/350x250" alt="">
+      <img src="http://via.placeholder.com/350x250" alt="">
+      <img src="http://via.placeholder.com/350x250" alt="">
+      <img src="http://via.placeholder.com/350x250" alt="">
+      <img src="http://via.placeholder.com/350x250" alt="">
+      <img src="http://via.placeholder.com/350x250" alt="">
     </div>
     
   </div>
@@ -46,7 +46,17 @@ export default {
   #projectGallery{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    overflow: hidden;
+  }
+  
+  #projectGallery img{
+    max-width: 100%;
+  }
+  
+  #projectGallery img:hover{
+    cursor: pointer;
   }
   
   img.myWork{
