@@ -21,7 +21,63 @@ export default {
   name: 'Projects',
   data () {
     return {
-      msg: 'Projects Loaded'
+      msg: 'Projects Loaded',
+      
+      // 1
+      /***** Origami of Code *****/
+      projects: {
+        ooc: {
+          name: "Origami of Code",
+          url: "http://www.origamiofcode.org/",
+          image: "",
+          alt: ""
+        },
+        
+        // 2
+        /***** PDX Fun *****/
+        pdxfun: {
+          name: "PDX Fun",
+          url: "http://www.pdxfun.me/",
+          image: "",
+          alt: ""
+        },
+        
+        // 3
+        /***** Sweet Website Bro *****/
+        sweet: {
+          name: "Sweet Website Bro",
+          url: "",
+          image: "",
+          alt: ""
+        },
+        
+        // 4
+        /***** Sing Along Sidekicks *****/
+        sidekicks: {
+          name: "Sing-Along Sidekicks",
+          url: "http://www.singalongsidekicks.com/",
+          image: "",
+          alt: ""
+        },
+        
+        // 5
+        /***** Material Flow *****/
+        material: {
+          name: "Material Flow",
+          url: "http://www.materialflow.com/",
+          image: "",
+          alt: ""
+        },
+        
+        // 6
+        /***** COG7 *****/
+        cog7: {
+          name: "CoG7 Portland Church",
+          url: "http://www.cg7portland.org/",
+          image: "",
+          alt: ""
+        }
+      }
     }
   }
 }
