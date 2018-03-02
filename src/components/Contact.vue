@@ -2,7 +2,7 @@
   <div id="Contact">
     
     <h2>Contact Me!</h2>
-    <img src="./img/contact.png" alt="Contact Section" />
+    <img src="./dist/img/contact.png" alt="Contact Section" />
 
     
   </div>

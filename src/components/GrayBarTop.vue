@@ -1,5 +1,5 @@
 <template>
-  <div id="GrayBarRight">
+  <div id="GrayBarTop">
 
     
   </div>
@@ -7,10 +7,10 @@
 
 <script>
 export default {
-  name: 'GrayBarRight',
+  name: 'GrayBarTop',
   data () {
     return {
-      msg: 'GrayBarRight Loaded'
+      msg: 'GrayBarTop Loaded'
     }
   }
 }
@@ -18,7 +18,7 @@ export default {
 
 
 <style scoped>
-  #GrayBarRight{
+  #GrayBarTop{
     top: 80%;
     right: 0;
     position: absolute;

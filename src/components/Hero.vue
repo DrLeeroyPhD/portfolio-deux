@@ -3,7 +3,7 @@
    
    
     <div id="hero-content">
-      <img src="./img/title-computer.png" alt="Fill Murray" />
+      <img src="./dist/img/title-computer.png" alt="Fill Murray" />
       <h1>christopher denny</h1>
       <h2>WEB DEVELOPER</h2>
     </div>

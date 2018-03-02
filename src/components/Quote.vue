@@ -1,7 +1,7 @@
 <template>
   <div id="Quote">
    
-     <img src="./img/bracket.jpg" alt="Fill Murray" />
+     <img src="./dist/img/bracket.jpg" alt="Fill Murray" />
      <h2>“Always code as if the
       guy who ends up
       maintaining your code

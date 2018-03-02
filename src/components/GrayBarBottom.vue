@@ -1,7 +1,7 @@
 <template>
-  <div id="GrayBarQuoteTopContainer">
+  <div id="GrayBarBottomContainer">
     
-    <div id="GrayBarQuoteTop"></div>
+    <div id="GrayBarBottom"></div>
     
   </div>
   
@@ -9,10 +9,10 @@
 
 <script>
 export default {
-  name: 'GrayBarQuoteTop',
+  name: 'GrayBarBottom',
   data () {
     return {
-      msg: 'GrayBarQuoteTop Loaded'
+      msg: 'GrayBarBottom Loaded'
     }
   }
 }
@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
   
-  #GrayBarQuoteTopContainer{
+  #GrayBarBottomContainer{
     top: 240%;
     width: 100%;
     margin: 0;
@@ -32,7 +32,7 @@ export default {
     z-index: -2000;
   }
   
-  #GrayBarQuoteTop{
+  #GrayBarBottom{
     top: 0;
     left: 0;
     position: absolute;

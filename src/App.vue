@@ -2,11 +2,11 @@
   <div id="app">
     <Navigation></Navigation>
     <Hero></Hero>
-    <GrayBarRight></GrayBarRight>
+    <GrayBarTop></GrayBarTop>
     <About></About>
-    <GrayBarLeft></GrayBarLeft>
+    <GrayBarMiddle></GrayBarMiddle>
     <Projects></Projects>
-    <GrayBarQuoteTop></GrayBarQuoteTop>
+    <GrayBarBottom></GrayBarBottom>
     <Quote></Quote>
     <Contact></Contact>
     <Copy></Copy>
@@ -16,11 +16,11 @@
 <script>
 import Navigation from './components/Navigation.vue'
 import Hero from './components/Hero.vue'
-import GrayBarRight from './components/GrayBarRight.vue'
+import GrayBarTop from './components/GrayBarTop.vue'
 import About from './components/About.vue'
-import GrayBarLeft from './components/GrayBarLeft.vue'
+import GrayBarMiddle from './components/GrayBarMiddle.vue'
 import Projects from './components/Projects.vue'
-import GrayBarQuoteTop from './components/GrayBarQuoteTop.vue'
+import GrayBarBottom from './components/GrayBarBottom.vue'
 import Quote from './components/Quote.vue'
 import Contact from './components/Contact.vue'
 import Copy from './components/Copy.vue'
@@ -30,11 +30,11 @@ export default {
   components: {
     Navigation,
     Hero,
-    GrayBarRight,
+    GrayBarTop,
     About,
-    GrayBarLeft,
+    GrayBarMiddle,
     Projects,
-    GrayBarQuoteTop,
+    GrayBarBottom,
     Quote,
     Contact,
     Copy
