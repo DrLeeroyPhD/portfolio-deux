@@ -25,7 +25,7 @@ export default {
           name: "Origami of Code",
           url: "http://www.origamiofcode.org/",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the Origami of Code website."
         },
         
         // 2
@@ -34,7 +34,7 @@ export default {
           name: "PDX Fun",
           url: "http://www.pdxfun.me/",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the PDX Fun website."
         },
         
         // 3
@@ -43,7 +43,7 @@ export default {
           name: "Sweet Website Bro",
           url: "",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the classic Sweet Website Bro portfolio website."
         },
         
         // 4
@@ -52,7 +52,7 @@ export default {
           name: "Sing-Along Sidekicks",
           url: "http://www.singalongsidekicks.com/",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the Sing-Along Sidekicks website."
         },
         
         // 5
@@ -61,7 +61,7 @@ export default {
           name: "Material Flow",
           url: "http://www.materialflow.com/",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the Material Flow website."
         },
         
         // 6
@@ -70,7 +70,7 @@ export default {
           name: "CoG7 Portland Church",
           url: "http://www.cg7portland.org/",
           image: "http://via.placeholder.com/350x250",
-          alt: ""
+          alt: "Image-link displaying the front page of the Church of God Seventh Day website."
         }
       }
     }
