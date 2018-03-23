@@ -22,7 +22,7 @@ export default {
 <style scoped>
   
   #GrayBarBottomContainer{
-    top: 240%;
+    top: 280%;
     width: 100%;
     margin: 0;
     padding: 0;

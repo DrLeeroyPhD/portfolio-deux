@@ -5,12 +5,7 @@
     <div><img src="https://www.fillmurray.com/300/300" alt="Fill Murray" class="myWork" /></div>
     
     <div id="projectGallery">
-      <img src="http://via.placeholder.com/350x250" alt="">
-      <img src="http://via.placeholder.com/350x250" alt="">
-      <img src="http://via.placeholder.com/350x250" alt="">
-      <img src="http://via.placeholder.com/350x250" alt="">
-      <img src="http://via.placeholder.com/350x250" alt="">
-      <img src="http://via.placeholder.com/350x250" alt="">
+      <a v-for="project in projects" :href="project.url" target="_blank"><img :src="project.image" :alt="project.alt"></a>
     </div>
     
   </div>
@@ -29,7 +24,7 @@ export default {
         ooc: {
           name: "Origami of Code",
           url: "http://www.origamiofcode.org/",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         },
         
@@ -38,7 +33,7 @@ export default {
         pdxfun: {
           name: "PDX Fun",
           url: "http://www.pdxfun.me/",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         },
         
@@ -47,7 +42,7 @@ export default {
         sweet: {
           name: "Sweet Website Bro",
           url: "",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         },
         
@@ -56,7 +51,7 @@ export default {
         sidekicks: {
           name: "Sing-Along Sidekicks",
           url: "http://www.singalongsidekicks.com/",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         },
         
@@ -65,7 +60,7 @@ export default {
         material: {
           name: "Material Flow",
           url: "http://www.materialflow.com/",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         },
         
@@ -74,7 +69,7 @@ export default {
         cog7: {
           name: "CoG7 Portland Church",
           url: "http://www.cg7portland.org/",
-          image: "",
+          image: "http://via.placeholder.com/350x250",
           alt: ""
         }
       }
@@ -103,12 +98,13 @@ export default {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 10px;
+    grid-gap: 20px 4%;
     overflow: hidden;
   }
   
   #projectGallery img{
     max-width: 100%;
+    border-radius: 15px;
   }
   
   #projectGallery img:hover{

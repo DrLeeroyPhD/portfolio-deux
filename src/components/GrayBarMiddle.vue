@@ -1,6 +1,6 @@
 <template>
   <div id="GrayBarMiddle">
-   
+    
    
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
     height: 0;
     width: 0;
     border-top: 400px solid transparent;
-    border-bottom: 400px solid transparent; 
+    border-bottom: 800px solid transparent; 
     border-left: 15vw solid var(--main-gray);
     overflow: hidden;
   }

@@ -28,7 +28,7 @@ export default {
 <style scoped>
   
   #Quote{
-    margin-top: 200px;
+    margin-top: 450px;
     display: grid;
     grid-template-rows: 30% 30% 30%;
     grid-auto-columns: 1fr;
@@ -55,12 +55,18 @@ export default {
     }
 }
   
+    
+  #Quote>img{
+    width: 80px;
+  }
+  
   #Quote>h2{
-    font-size: 3em;
+    font-size: 4em;
     color: #fff;
     text-align: center;
     width: 40%;
     font-family: var(--kanit);
+    margin-top: 5px;
   }
   
   #Quote>h3{
